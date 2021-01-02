@@ -74,7 +74,10 @@ body {
     padding-top: 1rem;
 }
 
-.sizes button{
+.sizes a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
     white-space: nowrap;
     padding: 0.5rem;
     background: none;
@@ -86,7 +89,7 @@ body {
     color: #585858;
 }
 
-button.active {
+a.active {
     background: #585858;
     color: white;
 }
@@ -108,7 +111,7 @@ button.active {
 }
 
 @media screen and (max-width:768px){
-    .sizes button{
+    .sizes a{
         margin-bottom: 1rem;
     }
     
