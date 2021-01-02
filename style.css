@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .sneaker img {
@@ -57,11 +58,11 @@ body {
 }
 
 .info h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .info h3 {
-    font-size: 1rem;
+    font-size: .8rem;
     padding: .5rem 0;
     color: #5a5a5a;
     font-weight: lighter;
